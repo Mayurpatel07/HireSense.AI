@@ -124,3 +124,6 @@ export interface ApiResponse<T> {
 
 // Update: 2026-01-01 11:47:00 - chore: configure TypeScript settings
 
+
+// Update: 2026-01-01 16:35:00 - docs: add troubleshooting guide
+
