@@ -152,3 +152,6 @@ export const useAuth = () => {
 
 // 2026-05-29 15:20:00 - feat(frontend): add saved jobs functionality
 
+
+// Update: 2026-01-01 18:33:00 - docs: update environment variables
+
