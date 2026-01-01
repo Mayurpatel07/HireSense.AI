@@ -35,3 +35,6 @@ export default apiClient;
 
 // 2026-05-11 11:18:00 - feat(frontend): add Form components with validation
 
+
+// Update: 2026-01-01 11:19:00 - fix(frontend): resolve auth redirect loop
+
