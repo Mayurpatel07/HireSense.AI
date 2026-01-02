@@ -42,3 +42,6 @@ export default router;
 
 // 2026-06-13 10:45:00 - feat(backend): create user registration and login endpoints
 
+
+// Update: 2026-01-02 09:46:00 - test: add E2E tests
+
