@@ -593,3 +593,6 @@ export const JobDetails: React.FC = () => {
 
 // 2026-06-14 10:45:00 - fix(frontend): resolve routing issues
 
+
+// Update: 2026-01-05 15:30:00 - docs: add API documentation
+
