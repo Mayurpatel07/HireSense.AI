@@ -35,3 +35,6 @@ export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children, requir
 
   return <>{children}</>;
 };
+
+// Update: 2026-01-05 14:21:00 - feat(frontend): implement useAuth hook
+
