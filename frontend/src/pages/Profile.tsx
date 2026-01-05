@@ -326,3 +326,6 @@ export const Profile: React.FC = () => {
 
 // 2026-06-03 13:30:00 - feat: add candidate shortlisting
 
+
+// Update: 2026-01-05 13:47:00 - feat(backend): integrate Gemini AI analysis
+
