@@ -570,3 +570,6 @@ For more information, refer to:
 - README.md - Full documentation
 - INSTALLATION.md - Setup guide
 - QUICK_REFERENCE.md - Quick lookup
+
+> Update: 2026-01-05 11:49:00 - chore: setup Vite config
+
