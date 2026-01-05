@@ -111,3 +111,6 @@ export const getInterviewQuestionsFromDetails = async (
   });
   return response.data;
 };
+
+// Update: 2026-01-05 11:23:00 - feat(frontend): create AdminDashboard
+
