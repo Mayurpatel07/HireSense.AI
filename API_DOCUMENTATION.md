@@ -740,3 +740,6 @@ Import the collection JSON for easier API testing:
 For more information, refer to:
 - README.md - Full documentation
 - TECHNICAL_DOCS.md - Technical architecture
+
+> Update: 2026-01-06 13:04:00 - feat(frontend): add job service
+
