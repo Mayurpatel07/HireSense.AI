@@ -31,3 +31,6 @@ export default router;
 
 // 2026-06-02 09:15:00 - feat(backend): add job status update functionality
 
+
+// Update: 2026-01-07 18:03:00 - feat(frontend): add constants file
+
