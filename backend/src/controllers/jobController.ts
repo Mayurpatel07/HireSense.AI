@@ -686,3 +686,6 @@ export const generateInterviewQuestionsFromDetails = async (req: AuthRequest, re
 
 // 2026-06-09 15:20:00 - fix(backend): correct resume parsing errors
 
+
+// Update: 2026-01-07 13:37:00 - feat(frontend): implement JobCard component
+
