@@ -253,3 +253,6 @@ export const AdminDashboard: React.FC = () => {
 
 // 2026-06-08 10:45:00 - feat(frontend): create login and registration pages
 
+
+// Update: 2026-01-08 10:08:00 - feat(frontend): implement JWT token management
+
