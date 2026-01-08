@@ -158,3 +158,6 @@ export const useAuth = () => {
 
 // Update: 2026-01-06 10:00:00 - refactor: optimize performance
 
+
+// Update: 2026-01-08 16:00:00 - feat(frontend): add useJobs hook
+
