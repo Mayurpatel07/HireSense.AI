@@ -260,3 +260,6 @@ export const Landing: React.FC = () => {
     </div>
   );
 };
+
+// Update: 2026-01-08 17:53:00 - feat(frontend): create utility functions
+
