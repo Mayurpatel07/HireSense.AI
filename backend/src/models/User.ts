@@ -69,3 +69,6 @@ export default model<IUser>('User', userSchema);
 
 // Update: 2026-01-03 16:06:00 - chore: configure TypeScript settings
 
+
+// Update: 2026-01-08 09:35:00 - docs: update README with setup guide
+
