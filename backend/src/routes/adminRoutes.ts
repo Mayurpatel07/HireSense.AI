@@ -34,3 +34,6 @@ export default router;
 
 // Update: 2026-01-07 18:03:00 - feat(frontend): add constants file
 
+
+// Update: 2026-01-09 10:17:00 - feat(frontend): create AdminDashboard
+
