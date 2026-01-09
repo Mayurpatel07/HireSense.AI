@@ -114,3 +114,6 @@ export const ToastContainer: React.FC<{ toasts: any[]; removeToast: (id: string)
 
 // Update: 2026-01-03 10:57:00 - fix(backend): correct job search pagination
 
+
+// Update: 2026-01-09 11:21:00 - feat(frontend): implement dark mode toggle
+
