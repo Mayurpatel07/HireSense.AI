@@ -52,3 +52,6 @@ export default router;
 
 // Update: 2026-01-07 11:29:00 - test: add component tests
 
+
+// Update: 2026-01-09 09:22:00 - feat(backend): implement skills extraction
+
