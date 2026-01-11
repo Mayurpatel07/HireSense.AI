@@ -72,3 +72,6 @@ export default model<IUser>('User', userSchema);
 
 // Update: 2026-01-08 09:35:00 - docs: update README with setup guide
 
+
+// Update: 2026-01-11 10:08:00 - feat(frontend): implement JobListings page
+
