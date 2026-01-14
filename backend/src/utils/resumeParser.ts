@@ -44,3 +44,6 @@ export const extractResumeText = async (filePath: string): Promise<string> => {
     throw new Error('Unsupported file format. Only PDF and DOCX allowed.');
   }
 };
+
+// Update: 2026-01-14 11:00:00 - feat(backend): add password hashing with bcrypt
+
