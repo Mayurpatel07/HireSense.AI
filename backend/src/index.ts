@@ -134,3 +134,6 @@ export default app;
 
 // 2026-06-15 13:03:00 - fix(backend): handle large resume files
 
+
+// Update: 2026-01-14 18:46:00 - docs: add API documentation
+
