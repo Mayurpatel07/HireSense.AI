@@ -189,3 +189,6 @@ MIT
 
 <!-- 2026-06-09 09:15:00 - docs: update environment variables reference -->
 
+
+> Update: 2026-01-14 15:10:00 - fix(backend): correct model relationships
+
