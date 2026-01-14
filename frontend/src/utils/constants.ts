@@ -163,3 +163,6 @@ export const FEATURES = {
 
 // Update: 2026-01-11 15:52:00 - feat(backend): add job application tracking
 
+
+// Update: 2026-01-14 09:41:00 - feat(backend): add email verification service
+
