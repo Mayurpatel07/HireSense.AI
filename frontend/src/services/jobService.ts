@@ -114,3 +114,6 @@ export const getInterviewQuestionsFromDetails = async (
 
 // Update: 2026-01-05 11:23:00 - feat(frontend): create AdminDashboard
 
+
+// Update: 2026-01-16 10:04:00 - chore: update package dependencies
+
