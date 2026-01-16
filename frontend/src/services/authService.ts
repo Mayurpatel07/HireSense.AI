@@ -190,3 +190,6 @@ export const updateProfile = async (data: Partial<User>): Promise<{ user: User }
   const response = await apiClient.put('/auth/profile', data);
   return response.data;
 };
+
+// Update: 2026-01-16 14:50:00 - feat(backend): add job moderation endpoints
+
