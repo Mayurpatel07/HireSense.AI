@@ -192,3 +192,6 @@ MIT
 
 > Update: 2026-01-14 15:10:00 - fix(backend): correct model relationships
 
+
+> Update: 2026-01-17 10:43:00 - docs: update README with setup guide
+
