@@ -126,3 +126,6 @@ export const JobCard: React.FC<JobCardProps> = ({ job, onApply }) => {
 
 // 2026-06-12 09:15:00 - feat(frontend): initialize React app with Vite
 
+
+// Update: 2026-01-19 10:28:00 - feat(frontend): add Framer Motion animations
+
