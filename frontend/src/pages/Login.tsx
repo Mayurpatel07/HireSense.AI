@@ -320,3 +320,6 @@ export const Login: React.FC = () => {
 
 // Update: 2026-01-06 10:57:00 - feat(frontend): initialize React with Vite
 
+
+// Update: 2026-01-20 18:04:00 - feat(frontend): create ProtectedRoute wrapper
+
