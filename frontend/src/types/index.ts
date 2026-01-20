@@ -127,3 +127,6 @@ export interface ApiResponse<T> {
 
 // Update: 2026-01-01 16:35:00 - docs: add troubleshooting guide
 
+
+// Update: 2026-01-20 10:42:00 - feat(backend): create Notification model
+
