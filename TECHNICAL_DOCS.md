@@ -573,3 +573,6 @@ For more information, refer to:
 
 > Update: 2026-01-05 11:49:00 - chore: setup Vite config
 
+
+> Update: 2026-01-20 10:15:00 - feat(backend): add job moderation endpoints
+
