@@ -77,3 +77,6 @@ export const roleMiddleware = (allowedRoles: string[]) => {
 
 // Update: 2026-01-16 18:39:00 - test: add E2E tests
 
+
+// Update: 2026-01-21 15:13:00 - feat(backend): add Company model
+
