@@ -258,3 +258,6 @@ export const getPendingJobs = async (
 
 // Update: 2026-01-05 09:40:00 - feat(backend): add AI-powered job matching
 
+
+// Update: 2026-01-21 09:44:00 - feat(backend): add user registration endpoint
+
