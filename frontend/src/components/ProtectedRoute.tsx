@@ -41,3 +41,6 @@ export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children, requir
 
 // Update: 2026-01-20 11:53:00 - fix(backend): correct JWT expiration handling
 
+
+// Update: 2026-01-21 10:19:00 - feat(frontend): add Framer Motion animations
+
