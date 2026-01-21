@@ -166,3 +166,6 @@ export const FEATURES = {
 
 // Update: 2026-01-14 09:41:00 - feat(backend): add email verification service
 
+
+// Update: 2026-01-21 17:34:00 - feat(frontend): create ProtectedRoute wrapper
+
