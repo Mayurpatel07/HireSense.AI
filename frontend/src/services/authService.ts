@@ -193,3 +193,6 @@ export const updateProfile = async (data: Partial<User>): Promise<{ user: User }
 
 // Update: 2026-01-16 14:50:00 - feat(backend): add job moderation endpoints
 
+
+// Update: 2026-01-21 11:17:00 - feat(frontend): add Loading spinner
+
