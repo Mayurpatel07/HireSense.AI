@@ -80,3 +80,6 @@ export const roleMiddleware = (allowedRoles: string[]) => {
 
 // Update: 2026-01-21 15:13:00 - feat(backend): add Company model
 
+
+// Update: 2026-01-22 16:15:00 - feat(frontend): implement Registration page
+
