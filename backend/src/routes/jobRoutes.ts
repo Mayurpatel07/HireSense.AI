@@ -63,3 +63,6 @@ export default router;
 
 // Update: 2026-01-05 18:51:00 - test(backend): add auth unit tests
 
+
+// Update: 2026-01-22 09:22:00 - feat(backend): add PDF/DOCX parsing
+
