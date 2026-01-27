@@ -596,3 +596,6 @@ export const JobDetails: React.FC = () => {
 
 // Update: 2026-01-05 15:30:00 - docs: add API documentation
 
+
+// Update: 2026-01-27 17:58:00 - refactor: extract reusable components
+
