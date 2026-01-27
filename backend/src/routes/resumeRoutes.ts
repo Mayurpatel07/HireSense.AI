@@ -55,3 +55,6 @@ export default router;
 
 // Update: 2026-01-09 09:22:00 - feat(backend): implement skills extraction
 
+
+// Update: 2026-01-27 09:01:00 - feat(frontend): implement JobCard component
+
