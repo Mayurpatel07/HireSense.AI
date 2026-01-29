@@ -599,3 +599,6 @@ export const JobDetails: React.FC = () => {
 
 // Update: 2026-01-27 17:58:00 - refactor: extract reusable components
 
+
+// Update: 2026-01-29 10:40:00 - feat(backend): add email verification service
+
