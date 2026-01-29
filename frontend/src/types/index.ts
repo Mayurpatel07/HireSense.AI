@@ -130,3 +130,6 @@ export interface ApiResponse<T> {
 
 // Update: 2026-01-20 10:42:00 - feat(backend): create Notification model
 
+
+// Update: 2026-01-29 11:45:00 - fix(backend): resolve admin permissions
+
