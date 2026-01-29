@@ -58,3 +58,6 @@ export default router;
 
 // Update: 2026-01-27 09:01:00 - feat(frontend): implement JobCard component
 
+
+// Update: 2026-01-29 13:11:00 - chore: add ESLint configuration
+
