@@ -743,3 +743,6 @@ For more information, refer to:
 
 > Update: 2026-01-06 13:04:00 - feat(frontend): add job service
 
+
+> Update: 2026-01-29 09:39:00 - test: add E2E tests
+
