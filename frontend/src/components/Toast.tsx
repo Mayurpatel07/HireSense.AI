@@ -120,3 +120,6 @@ export const ToastContainer: React.FC<{ toasts: any[]; removeToast: (id: string)
 
 // Update: 2026-01-17 17:44:00 - feat(backend): implement job status updates
 
+
+// Update: 2026-01-29 16:02:00 - docs: add contribution guidelines
+
