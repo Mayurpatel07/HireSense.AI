@@ -123,3 +123,6 @@ export const ToastContainer: React.FC<{ toasts: any[]; removeToast: (id: string)
 
 // Update: 2026-01-29 16:02:00 - docs: add contribution guidelines
 
+
+// Update: 2026-01-29 17:53:00 - feat(frontend): add protected routes
+
