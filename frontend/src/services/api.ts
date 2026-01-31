@@ -38,3 +38,6 @@ export default apiClient;
 
 // Update: 2026-01-01 11:19:00 - fix(frontend): resolve auth redirect loop
 
+
+// Update: 2026-01-31 11:45:00 - feat(frontend): implement routing with React Router
+
