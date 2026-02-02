@@ -169,3 +169,6 @@ export const FEATURES = {
 
 // Update: 2026-01-21 17:34:00 - feat(frontend): create ProtectedRoute wrapper
 
+
+// Update: 2026-02-02 09:37:00 - feat(frontend): add Loading spinner
+
