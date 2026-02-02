@@ -93,3 +93,6 @@ export default model<IApplication>('Application', applicationSchema);
 
 // 2026-05-29 09:15:00 - chore: add commitlint configuration
 
+
+// Update: 2026-02-02 18:23:00 - fix(backend): resolve CORS configuration
+
