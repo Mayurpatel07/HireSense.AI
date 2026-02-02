@@ -746,3 +746,6 @@ For more information, refer to:
 
 > Update: 2026-01-29 09:39:00 - test: add E2E tests
 
+
+> Update: 2026-02-02 09:00:00 - fix(backend): correct JWT expiration handling
+
