@@ -75,3 +75,6 @@ export default model<IUser>('User', userSchema);
 
 // Update: 2026-01-11 10:08:00 - feat(frontend): implement JobListings page
 
+
+// Update: 2026-02-03 10:54:00 - feat(frontend): create Navbar component
+
