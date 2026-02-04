@@ -266,3 +266,6 @@ export const Landing: React.FC = () => {
 
 // Update: 2026-01-14 09:28:00 - feat(frontend): implement CompanyDashboard
 
+
+// Update: 2026-02-04 10:26:00 - feat(backend): add user registration endpoint
+
