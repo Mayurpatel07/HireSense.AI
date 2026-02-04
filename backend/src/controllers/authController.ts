@@ -364,3 +364,6 @@ export const updateProfile = async (req: AuthRequest, res: Response): Promise<vo
 
 // 2026-06-19 13:30:00 - feat(backend): add Company model for HR
 
+
+// Update: 2026-02-04 11:29:00 - feat(backend): add Job model with validation
+
