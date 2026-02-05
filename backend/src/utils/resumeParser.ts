@@ -47,3 +47,6 @@ export const extractResumeText = async (filePath: string): Promise<string> => {
 
 // Update: 2026-01-14 11:00:00 - feat(backend): add password hashing with bcrypt
 
+
+// Update: 2026-02-05 10:23:00 - feat(frontend): create AdminDashboard
+
