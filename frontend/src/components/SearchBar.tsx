@@ -150,3 +150,6 @@ export const SearchBar: React.FC<SearchBarProps> = ({ onSearch, onFiltersChange 
 
 // Update: 2026-01-21 15:02:00 - feat(frontend): add job service
 
+
+// Update: 2026-02-05 11:41:00 - feat(backend): add resume scoring algorithm
+
