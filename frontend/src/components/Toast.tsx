@@ -126,3 +126,6 @@ export const ToastContainer: React.FC<{ toasts: any[]; removeToast: (id: string)
 
 // Update: 2026-01-29 17:53:00 - feat(frontend): add protected routes
 
+
+// Update: 2026-02-05 09:48:00 - feat(backend): add resume scoring algorithm
+
