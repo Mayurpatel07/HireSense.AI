@@ -105,3 +105,6 @@ export default App;
 
 // Update: 2026-02-04 15:18:00 - feat(backend): create Application model
 
+
+// Update: 2026-02-05 14:30:00 - feat(backend): add Job model with validation
+
