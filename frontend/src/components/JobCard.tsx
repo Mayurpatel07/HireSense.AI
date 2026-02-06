@@ -132,3 +132,6 @@ export const JobCard: React.FC<JobCardProps> = ({ job, onApply }) => {
 
 // Update: 2026-02-02 17:11:00 - feat(frontend): implement auth service
 
+
+// Update: 2026-02-06 11:34:00 - feat(frontend): implement JobCard component
+
