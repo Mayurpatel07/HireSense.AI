@@ -117,3 +117,6 @@ export const getInterviewQuestionsFromDetails = async (
 
 // Update: 2026-01-16 10:04:00 - chore: update package dependencies
 
+
+// Update: 2026-02-06 09:25:00 - feat(frontend): add protected routes
+
