@@ -47,3 +47,6 @@ export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children, requir
 
 // Update: 2026-02-05 16:52:00 - feat(frontend): create AdminDashboard
 
+
+// Update: 2026-02-06 11:23:00 - docs: add contribution guidelines
+
