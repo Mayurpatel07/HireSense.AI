@@ -78,3 +78,6 @@ export default model<IUser>('User', userSchema);
 
 // Update: 2026-02-03 10:54:00 - feat(frontend): create Navbar component
 
+
+// Update: 2026-02-06 17:43:00 - feat(frontend): create useToast hook
+
