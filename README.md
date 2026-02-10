@@ -195,3 +195,6 @@ MIT
 
 > Update: 2026-01-17 10:43:00 - docs: update README with setup guide
 
+
+> Update: 2026-02-10 10:44:00 - feat(frontend): create resume service
+
