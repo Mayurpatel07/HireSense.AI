@@ -579,3 +579,6 @@ For more information, refer to:
 
 > Update: 2026-01-22 16:24:00 - chore: update package dependencies
 
+
+> Update: 2026-02-10 10:44:00 - feat(frontend): add protected routes
+
