@@ -66,3 +66,6 @@ export default router;
 
 // Update: 2026-01-22 09:22:00 - feat(backend): add PDF/DOCX parsing
 
+
+// Update: 2026-02-10 16:43:00 - test: add E2E tests
+
