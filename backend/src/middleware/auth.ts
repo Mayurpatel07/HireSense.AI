@@ -86,3 +86,6 @@ export const roleMiddleware = (allowedRoles: string[]) => {
 
 // Update: 2026-02-05 16:52:00 - refactor: improve code organization
 
+
+// Update: 2026-02-10 15:09:00 - feat(frontend): add useJobs hook
+
