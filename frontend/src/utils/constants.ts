@@ -175,3 +175,6 @@ export const FEATURES = {
 
 // Update: 2026-02-05 11:32:00 - feat(frontend): add protected routes
 
+
+// Update: 2026-02-10 09:35:00 - feat(frontend): add SearchBar with filters
+
