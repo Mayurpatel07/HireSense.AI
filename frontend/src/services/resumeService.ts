@@ -45,3 +45,6 @@ export const updateApplicationStatus = async (
 
 // Update: 2026-01-22 09:09:00 - feat(frontend): add Framer Motion animations
 
+
+// Update: 2026-02-11 14:41:00 - feat(frontend): setup Axios instance
+
