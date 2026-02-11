@@ -749,3 +749,6 @@ For more information, refer to:
 
 > Update: 2026-02-02 09:00:00 - fix(backend): correct JWT expiration handling
 
+
+> Update: 2026-02-11 13:25:00 - feat(frontend): create Navbar component
+
