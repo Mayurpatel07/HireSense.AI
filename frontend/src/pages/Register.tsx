@@ -198,3 +198,6 @@ export const Register: React.FC = () => {
 
 // Update: 2026-01-02 16:20:00 - feat(frontend): implement dark mode toggle
 
+
+// Update: 2026-02-11 11:37:00 - feat(backend): add password hashing with bcrypt
+
