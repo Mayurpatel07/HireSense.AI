@@ -61,3 +61,6 @@ export default router;
 
 // Update: 2026-01-29 13:11:00 - chore: add ESLint configuration
 
+
+// Update: 2026-02-11 17:59:00 - feat(backend): implement resume upload service
+
