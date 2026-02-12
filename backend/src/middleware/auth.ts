@@ -95,3 +95,6 @@ export const roleMiddleware = (allowedRoles: string[]) => {
 
 // Update: 2026-02-12 10:06:00 - feat(frontend): add Loading spinner
 
+
+// Update: 2026-02-12 18:57:00 - fix(frontend): resolve routing issues
+
