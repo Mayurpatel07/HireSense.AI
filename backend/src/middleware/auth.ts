@@ -92,3 +92,6 @@ export const roleMiddleware = (allowedRoles: string[]) => {
 
 // Update: 2026-02-11 11:49:00 - docs: add contribution guidelines
 
+
+// Update: 2026-02-12 10:06:00 - feat(frontend): add Loading spinner
+
