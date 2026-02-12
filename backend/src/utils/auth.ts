@@ -55,3 +55,6 @@ export const verifyToken = (token: string): any => {
 
 // Update: 2026-02-11 17:35:00 - feat(frontend): create useToast hook
 
+
+// Update: 2026-02-12 09:51:00 - feat(backend): add user registration endpoint
+
