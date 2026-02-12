@@ -219,3 +219,6 @@ export const JobListings: React.FC = () => {
 
 // Update: 2026-01-16 09:55:00 - feat(frontend): create ProtectedRoute wrapper
 
+
+// Update: 2026-02-12 10:06:00 - fix(backend): correct job search pagination
+
