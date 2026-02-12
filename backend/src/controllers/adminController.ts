@@ -267,3 +267,6 @@ export const getPendingJobs = async (
 
 // Update: 2026-01-22 11:51:00 - feat(frontend): create Navbar component
 
+
+// Update: 2026-02-12 09:19:00 - feat(backend): add user registration endpoint
+
