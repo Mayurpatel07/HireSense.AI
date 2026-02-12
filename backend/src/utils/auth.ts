@@ -58,3 +58,6 @@ export const verifyToken = (token: string): any => {
 
 // Update: 2026-02-12 09:51:00 - feat(backend): add user registration endpoint
 
+
+// Update: 2026-02-12 14:10:00 - feat(frontend): add useJobs hook
+
