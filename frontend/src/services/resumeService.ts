@@ -48,3 +48,6 @@ export const updateApplicationStatus = async (
 
 // Update: 2026-02-11 14:41:00 - feat(frontend): setup Axios instance
 
+
+// Update: 2026-02-13 14:04:00 - test: add API integration tests
+
