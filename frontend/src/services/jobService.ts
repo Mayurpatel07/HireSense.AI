@@ -120,3 +120,6 @@ export const getInterviewQuestionsFromDetails = async (
 
 // Update: 2026-02-06 09:25:00 - feat(frontend): add protected routes
 
+
+// Update: 2026-02-13 17:24:00 - feat(frontend): add constants file
+
