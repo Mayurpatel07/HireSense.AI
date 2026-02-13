@@ -81,3 +81,6 @@ export default model<IUser>('User', userSchema);
 
 // Update: 2026-02-06 17:43:00 - feat(frontend): create useToast hook
 
+
+// Update: 2026-02-13 09:26:00 - feat(frontend): add JobDetails page
+
