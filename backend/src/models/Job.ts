@@ -115,3 +115,6 @@ export default model<IJob>('Job', jobSchema);
 
 // 2026-06-13 11:31:00 - refactor(backend): improve error handling
 
+
+// Update: 2026-02-16 16:05:00 - fix(backend): correct model relationships
+
