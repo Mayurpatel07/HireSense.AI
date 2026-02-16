@@ -1110,3 +1110,6 @@ export const CompanyDashboard: React.FC = () => {
 
 // Update: 2026-01-22 18:52:00 - feat(backend): add Company model
 
+
+// Update: 2026-02-16 11:20:00 - feat(backend): add job moderation endpoints
+
