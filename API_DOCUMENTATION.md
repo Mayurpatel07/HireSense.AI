@@ -752,3 +752,6 @@ For more information, refer to:
 
 > Update: 2026-02-11 13:25:00 - feat(frontend): create Navbar component
 
+
+> Update: 2026-02-16 11:26:00 - feat(frontend): add Framer Motion animations
+
