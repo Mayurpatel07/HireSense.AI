@@ -201,3 +201,6 @@ export const Register: React.FC = () => {
 
 // Update: 2026-02-11 11:37:00 - feat(backend): add password hashing with bcrypt
 
+
+// Update: 2026-02-16 16:23:00 - feat(backend): create Notification model
+
