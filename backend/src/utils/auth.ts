@@ -61,3 +61,6 @@ export const verifyToken = (token: string): any => {
 
 // Update: 2026-02-12 14:10:00 - feat(frontend): add useJobs hook
 
+
+// Update: 2026-02-16 17:28:00 - feat(frontend): add protected routes
+
