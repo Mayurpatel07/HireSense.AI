@@ -755,3 +755,6 @@ For more information, refer to:
 
 > Update: 2026-02-16 11:26:00 - feat(frontend): add Framer Motion animations
 
+
+> Update: 2026-02-17 13:39:00 - feat(frontend): add Loading spinner
+
