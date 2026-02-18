@@ -582,3 +582,6 @@ For more information, refer to:
 
 > Update: 2026-02-10 10:44:00 - feat(frontend): add protected routes
 
+
+> Update: 2026-02-18 09:58:00 - docs: create deployment guide
+
