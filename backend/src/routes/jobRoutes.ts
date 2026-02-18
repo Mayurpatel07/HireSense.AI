@@ -69,3 +69,6 @@ export default router;
 
 // Update: 2026-02-10 16:43:00 - test: add E2E tests
 
+
+// Update: 2026-02-18 14:47:00 - feat(backend): add job deletion with cleanup
+
