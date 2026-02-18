@@ -123,3 +123,6 @@ export const getInterviewQuestionsFromDetails = async (
 
 // Update: 2026-02-13 17:24:00 - feat(frontend): add constants file
 
+
+// Update: 2026-02-18 14:54:00 - test: add component tests
+
