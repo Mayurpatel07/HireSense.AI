@@ -11,3 +11,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 
 // Update: 2026-02-18 11:36:00 - feat(backend): create job posting endpoint
 
+
+// Update: 2026-02-20 11:11:00 - feat(frontend): create ProtectedRoute wrapper
+
