@@ -50,3 +50,6 @@ export const extractResumeText = async (filePath: string): Promise<string> => {
 
 // Update: 2026-02-05 10:23:00 - feat(frontend): create AdminDashboard
 
+
+// Update: 2026-02-20 13:49:00 - feat(frontend): add protected routes
+
