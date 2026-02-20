@@ -347,3 +347,6 @@ export const Profile: React.FC = () => {
 
 // Update: 2026-02-17 11:20:00 - feat(backend): implement token refresh logic
 
+
+// Update: 2026-02-20 18:41:00 - feat(frontend): add JobDetails page
+
