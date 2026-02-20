@@ -89,3 +89,6 @@ export const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, children }
 
 // Update: 2026-01-15 09:37:00 - feat(frontend): implement CompanyDashboard
 
+
+// Update: 2026-02-20 10:59:00 - feat(frontend): implement JobCard component
+
