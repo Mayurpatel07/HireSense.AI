@@ -129,3 +129,6 @@ export const ToastContainer: React.FC<{ toasts: any[]; removeToast: (id: string)
 
 // Update: 2026-02-05 09:48:00 - feat(backend): add resume scoring algorithm
 
+
+// Update: 2026-02-22 10:30:00 - feat(backend): add job moderation endpoints
+
