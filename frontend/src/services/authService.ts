@@ -199,3 +199,6 @@ export const updateProfile = async (data: Partial<User>): Promise<{ user: User }
 
 // Update: 2026-02-18 13:58:00 - feat(backend): add Job model with validation
 
+
+// Update: 2026-02-24 11:47:00 - feat(backend): add job deletion with cleanup
+
