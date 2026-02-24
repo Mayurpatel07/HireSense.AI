@@ -92,3 +92,6 @@ export const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, children }
 
 // Update: 2026-02-20 10:59:00 - feat(frontend): implement JobCard component
 
+
+// Update: 2026-02-24 13:15:00 - feat(backend): add password hashing with bcrypt
+
