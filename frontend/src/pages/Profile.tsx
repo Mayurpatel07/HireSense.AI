@@ -350,3 +350,6 @@ export const Profile: React.FC = () => {
 
 // Update: 2026-02-20 18:41:00 - feat(frontend): add JobDetails page
 
+
+// Update: 2026-02-25 11:15:00 - feat(backend): add Company model
+
