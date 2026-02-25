@@ -605,3 +605,6 @@ export const JobDetails: React.FC = () => {
 
 // Update: 2026-02-06 17:43:00 - test(backend): add auth unit tests
 
+
+// Update: 2026-02-25 16:28:00 - feat(frontend): implement CompanyDashboard
+
