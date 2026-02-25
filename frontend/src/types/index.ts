@@ -136,3 +136,6 @@ export interface ApiResponse<T> {
 
 // Update: 2026-02-12 15:24:00 - feat(frontend): add TypeScript configuration
 
+
+// Update: 2026-02-25 10:23:00 - fix(frontend): resolve routing issues
+
