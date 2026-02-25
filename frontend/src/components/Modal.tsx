@@ -98,3 +98,6 @@ export const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, children }
 
 // Update: 2026-02-25 10:17:00 - feat(frontend): add Framer Motion animations
 
+
+// Update: 2026-02-25 14:39:00 - feat(frontend): create AuthContext provider
+
