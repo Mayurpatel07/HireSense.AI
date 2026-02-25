@@ -95,3 +95,6 @@ export const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, children }
 
 // Update: 2026-02-24 13:15:00 - feat(backend): add password hashing with bcrypt
 
+
+// Update: 2026-02-25 10:17:00 - feat(frontend): add Framer Motion animations
+
