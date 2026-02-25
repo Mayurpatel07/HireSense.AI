@@ -181,3 +181,6 @@ export const FEATURES = {
 
 // Update: 2026-02-20 10:13:00 - fix(backend): correct parsing errors
 
+
+// Update: 2026-02-25 11:04:00 - feat(frontend): add API interceptors
+
