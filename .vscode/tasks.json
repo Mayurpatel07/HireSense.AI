@@ -1,0 +1,53 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Backend Dev Server",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"dev"
+			],
+			"isBackground": true,
+			"group": "build"
+		},
+		{
+			"label": "Run Frontend Dev Server",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"dev"
+			],
+			"isBackground": true,
+			"group": "build"
+		},
+		{
+			"label": "Run Backend Dev Server (Prefix)",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"backend",
+				"run",
+				"dev"
+			],
+			"isBackground": true,
+			"group": "build"
+		},
+		{
+			"label": "Run Frontend Dev Server (Prefix)",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"frontend",
+				"run",
+				"dev"
+			],
+			"isBackground": true,
+			"group": "build"
+		}
+	]
+}
