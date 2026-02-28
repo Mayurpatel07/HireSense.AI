@@ -22,6 +22,7 @@ interface ResumeAnalysis {
 }
 
 const ResumeAnalyzer: React.FC = () => {
+  const apiBaseUrl = import.meta.env.VITE_API_URL || '/api';
   const [file, setFile] = useState<File | null>(null);
   const [targetRole, setTargetRole] = useState('');
   const [loading, setLoading] = useState(false);
@@ -66,7 +67,7 @@ const ResumeAnalyzer: React.FC = () => {
         formData.append('targetRole', targetRole);
       }
 
-      const response = await fetch('http://localhost:5000/api/resume-analyzer/analyze', {
+      const response = await fetch(`${apiBaseUrl}/resume-analyzer/analyze`, {
         method: 'POST',
         body: formData,
       });

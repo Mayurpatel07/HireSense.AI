@@ -14,6 +14,13 @@ import resumeAnalyzerRoutes from './routes/resumeAnalyzerRoutes';
 
 const app: Express = express();
 const PORT = process.env.PORT || 5000;
+const normalizeOrigin = (value: string) => value.trim().replace(/\/+$/, '');
+
+const configuredOrigins = (process.env.FRONTEND_URL || '')
+  .split(',')
+  .map((entry) => entry.trim())
+  .filter(Boolean)
+  .map(normalizeOrigin);
 
 // Middleware
 app.use(
@@ -24,8 +31,9 @@ app.use(
         return;
       }
 
-      const configuredOrigin = process.env.FRONTEND_URL;
-      if (configuredOrigin && origin === configuredOrigin) {
+      const normalizedRequestOrigin = normalizeOrigin(origin);
+
+      if (configuredOrigins.includes(normalizedRequestOrigin)) {
         callback(null, true);
         return;
       }

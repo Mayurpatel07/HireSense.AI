@@ -47,8 +47,9 @@ export const JobListings: React.FC = () => {
         });
       }
       
-      setJobs(response.jobs);
-      setPagination(response.pagination);
+      const safeJobs = Array.isArray(response?.jobs) ? response.jobs : [];
+      setJobs(safeJobs);
+      setPagination(response?.pagination || null);
     } catch (error) {
       addToast('Failed to load jobs', 'error');
     } finally {

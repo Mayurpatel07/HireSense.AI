@@ -1,285 +1,165 @@
-# HireSenseAI - AI-Powered Job Finder Portal
+# HireSense.AI
 
-A modern, full-stack job finder platform with AI-powered resume analysis and intelligent job matching.
+AI-powered job platform with resume analysis, intelligent job matching, interview prep, and role-based dashboards for Job Seeker, Company/HR, and Admin users.
 
-## Tech Stack
+## Stack
 
-### Frontend
-- React 18 with TypeScript
-- Vite (build tool)
-- TailwindCSS (styling)
-- Framer Motion (animations)
-- React Router (navigation)
-- Axios (HTTP client)
+- Frontend: React 18, TypeScript, Vite, Tailwind CSS, Framer Motion
+- Backend: Node.js, Express, TypeScript, MongoDB (Mongoose)
+- Auth: Firebase (client) + JWT (backend)
+- Storage/AI: Supabase/Cloudinary (configurable), Gemini API
 
-### Backend
-- Node.js with Express + TypeScript
-- MongoDB + Mongoose (database)
-- JWT (authentication)
-- Multer (file uploads)
-- OpenAI API (AI resume analysis)
+## Monorepo Structure
 
-## Project Structure
-
-```
-HireSenseAI/
-├── frontend/                 # React frontend
-│   ├── src/
-│   │   ├── components/      # Reusable components
-│   │   ├── pages/           # Page components
-│   │   ├── services/        # API services
-│   │   ├── context/         # React context
-│   │   ├── hooks/           # Custom hooks
-│   │   ├── types/           # TypeScript types
-│   │   └── App.tsx          # Main app
-│   └── package.json
-│
-├── backend/                  # Express backend
-│   ├── src/
-│   │   ├── config/          # Database config
-│   │   ├── controllers/     # Route controllers
-│   │   ├── models/          # MongoDB models
-│   │   ├── routes/          # API routes
-│   │   ├── middleware/      # Auth middleware
-│   │   ├── services/        # Business logic
-│   │   ├── utils/           # Utilities
-│   │   └── index.ts         # Server entry
-│   ├── uploads/             # Resume uploads
-│   └── package.json
-│
-└── README.md
+```text
+Job-Finder/
+├─ frontend/
+├─ backend/
+├─ netlify.toml
+└─ README.md
 ```
 
-## Installation & Setup
+## Prerequisites
 
-### Prerequisites
-- Node.js (v16+)
-- MongoDB (running locally or Atlas)
-- npm or yarn
+- Node.js 20+
+- npm
+- MongoDB Atlas (or local MongoDB)
+- Firebase project (for Google login)
 
-### Backend Setup
+## Local Setup
 
-1. **Install dependencies**
-   ```bash
-   cd backend
-   npm install
-   ```
+### 1) Install dependencies
 
-2. **Create `.env` file**
-   ```bash
-   cp .env.example .env
-   ```
-
-3. **Configure environment variables**
-   ```
-   MONGODB_URI=mongodb://localhost:27017/hiresenseai
-   JWT_SECRET=your_secret_key_here
-   PORT=5000
-   FRONTEND_URL=http://localhost:3000
-   OPENAI_API_KEY=your_openai_key_here
-   ```
-
-4. **Seed database** (optional)
-   ```bash
-   npm run seed
-   ```
-
-5. **Start backend**
-   ```bash
-   npm run dev
-   ```
-
-### Frontend Setup
-
-1. **Install dependencies**
-   ```bash
-   cd frontend
-   npm install
-   ```
-
-2. **Start frontend**
-   ```bash
-   npm run dev
-   ```
-
-The app will be available at `http://localhost:3000`
-
-## Demo Credentials
-
-### Admin
-- Email: `admin@hiresenseai.com`
-- Password: `admin123`
-
-### Company
-- Email: `hr@techinnovations.com`
-- Password: `company123`
-
-### Job Seeker
-- Email: `john@example.com`
-- Password: `user123`
-
-## Features
-
-### For Job Seekers
-- ✅ Create profile with resume upload
-- ✅ Search jobs with filters (location, type, experience level)
-- ✅ Apply for jobs directly
-- ✅ AI-powered resume analysis and matching
-- ✅ View application status
-- ✅ Track job applications
-
-### For Companies
-- ✅ Post and manage job listings
-- ✅ Review applicant resumes
-- ✅ View AI-generated resume analysis
-- ✅ Update application status
-- ✅ View company dashboard
-
-### For Admins
-- ✅ Manage all users
-- ✅ Approve/reject job postings
-- ✅ View platform statistics
-- ✅ Monitor applications
-- ✅ Admin dashboard with charts
-
-## API Endpoints
-
-### Authentication
-- `POST /api/auth/register` - Register new user
-- `POST /api/auth/login` - Login user
-- `GET /api/auth/profile` - Get current user
-- `PUT /api/auth/profile` - Update profile
-
-### Jobs
-- `GET /api/jobs` - Get all jobs with filters
-- `GET /api/jobs/:id` - Get job details
-- `POST /api/jobs` - Create job (company only)
-- `PUT /api/jobs/:id` - Update job
-- `DELETE /api/jobs/:id` - Delete job
-- `POST /api/jobs/:jobId/apply` - Apply for job
-- `GET /api/jobs/:jobId/applications` - Get job applications
-
-### Resume
-- `POST /api/resume/upload` - Upload resume
-- `POST /api/resume/analyze/:jobId` - Analyze resume vs job
-
-### Admin
-- `GET /api/admin/stats` - Dashboard statistics
-- `GET /api/admin/users` - Get all users
-- `GET /api/admin/jobs/pending` - Get pending jobs
-- `PUT /api/admin/jobs/:jobId/approve` - Approve job
-- `PUT /api/admin/jobs/:jobId/reject` - Reject job
-
-## UI Features
-
-- 🎨 Modern glassmorphism design
-- 🌓 Dark/light mode ready
-- 📱 Fully responsive (mobile, tablet, desktop)
-- ⚡ Smooth animations with Framer Motion
-- 🎯 Intuitive user experience
-- ♿ Accessible components
-
-## Resume Analysis
-
-The AI resume analysis feature:
-1. Extracts text from PDF/DOCX resumes
-2. Compares against job description
-3. Calculates fit score (0-100)
-4. Identifies strengths and weaknesses
-5. Highlights missing skills
-
-**Current Implementation**: Pattern matching with keyword extraction
-**For Production**: Integrate with OpenAI GPT-4 API for advanced analysis
-
-## Build & Deployment
-
-### Build Frontend
 ```bash
-cd frontend
-npm run build
+npm --prefix backend install
+npm --prefix frontend install
 ```
 
-### Build Backend
-```bash
-cd backend
-npm run build
-npm start
-```
+### 2) Configure backend env
 
-## Environment Variables
+Create `backend/.env` (or copy from `backend/.env.example`) and set values:
 
-### Backend (.env)
-```
-MONGODB_URI=mongodb://localhost:27017/hiresenseai
-JWT_SECRET=your_super_secret_key
-JWT_EXPIRE=7d
+```env
 PORT=5000
 NODE_ENV=development
-OPENAI_API_KEY=your_api_key
-MAX_FILE_SIZE=5242880
+
+MONGODB_URI=mongodb+srv://<user>:<password>@<cluster>.mongodb.net/<db>
+
+JWT_SECRET=<long_random_secret>
+JWT_EXPIRE=7d
+
 FRONTEND_URL=http://localhost:3000
+MAX_FILE_SIZE=5242880
+
+GEMINI_API_KEY=<your_gemini_key>
+GEMINI_MODEL=gemini-2.5-flash
+OPENAI_API_KEY=
+
+SUPABASE_URL=<optional>
+SUPABASE_ANON_KEY=<optional>
+SUPABASE_BUCKET_NAME=Resume
+
+USE_CLOUDINARY=false
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
+
+FIREBASE_SERVICE_ACCOUNT_KEY=<optional_for_local_if_using_google_login>
 ```
 
-## Testing
+### 3) Configure frontend env (optional for local)
 
-### Test Admin Features
-- Login with admin account
-- Approve/reject job postings
-- View statistics dashboard
+Create `frontend/.env`:
 
-### Test Company Features
-- Post a new job
-- View applicants
-- Update application status
+```env
+VITE_API_URL=http://localhost:5000/api
+```
 
-### Test Job Seeker Features
-- Apply for jobs
-- Upload resume
-- View AI analysis
-- Track applications
+If omitted, frontend falls back to `/api` in dev via Vite proxy.
 
-## Performance Optimizations
+### 4) Run app
 
-- Lazy loading of components
-- Image optimization
-- Code splitting with React Router
-- API caching strategies
-- Database indexing
-- Multer file size limits
+Option A (single commands):
 
-## Security Features
+```bash
+npm --prefix backend run dev
+npm --prefix frontend run dev
+```
 
-- JWT token authentication
-- Password hashing with bcryptjs
-- CORS protection
-- Input validation
-- Role-based access control
-- File upload validation
+Option B (VS Code tasks):
 
-## Future Enhancements
+- Run Backend Dev Server (Prefix)
+- Run Frontend Dev Server (Prefix)
 
-- [ ] Email notifications
-- [ ] Advanced analytics
-- [ ] Video interview integration
-- [ ] Salary negotiation tool
-- [ ] Machine learning recommendations
-- [ ] Real-time chat between companies and candidates
-- [ ] Blog and resources section
-- [ ] Mobile app
+Frontend: http://localhost:3000
+Backend health: http://localhost:5000/api/health
 
-## Contributing
+## Seed Data (Optional)
 
-Contributions are welcome! Please feel free to submit pull requests.
+```bash
+npm --prefix backend run seed
+```
+
+This resets and recreates users/jobs.
+
+## Build Commands
+
+```bash
+npm --prefix backend run build
+npm --prefix frontend run build
+```
+
+## Deployment
+
+### Backend (Render)
+
+- Root directory: `backend`
+- Build command: `npm ci --include=dev && npm run build`
+- Start command: `npm run start`
+- Set `NPM_CONFIG_PRODUCTION=false`
+
+Required env on Render:
+
+```env
+NODE_ENV=production
+PORT=10000
+MONGODB_URI=<atlas_uri>
+JWT_SECRET=<long_random_secret>
+JWT_EXPIRE=7d
+FRONTEND_URL=https://<your-netlify-site>.netlify.app
+MAX_FILE_SIZE=5242880
+GEMINI_API_KEY=<key>
+GEMINI_MODEL=gemini-2.5-flash
+SUPABASE_URL=<if used>
+SUPABASE_ANON_KEY=<if used>
+SUPABASE_BUCKET_NAME=Resume
+FIREBASE_SERVICE_ACCOUNT_KEY=<one-line-json>
+```
+
+### Frontend (Netlify)
+
+- Uses `netlify.toml` (`frontend` base, `npm run build`, `dist` publish)
+- Add env var:
+
+```env
+VITE_API_URL=https://<your-render-service>.onrender.com/api
+```
+
+- Redeploy after changing env vars.
+
+## Common Issues
+
+- `CORS blocked`: ensure Render `FRONTEND_URL` matches Netlify URL exactly.
+- `firebase-login 404`: user not yet created in production DB; sign up first.
+- `Cannot read .length`: fixed in latest main branch, redeploy frontend.
+- Resume analyzer calling localhost in prod: fixed in latest main branch, redeploy frontend.
+
+## Security Notes
+
+- Never commit `.env` or service account JSON files.
+- Rotate any keys that were shared in logs/chats.
+- Prefer `FIREBASE_SERVICE_ACCOUNT_KEY` env var in production (not JSON file).
 
 ## License
 
-MIT License - See LICENSE file for details
-
-## Support
-
-For support, email support@hiresenseai.com or open an issue on GitHub.
-
----
-
-**Built with ❤️ by the HireSenseAI Team**
-Supabase@job@123
+MIT

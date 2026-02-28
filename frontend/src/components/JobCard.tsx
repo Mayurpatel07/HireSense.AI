@@ -9,6 +9,8 @@ interface JobCardProps {
 }
 
 export const JobCard: React.FC<JobCardProps> = ({ job, onApply }) => {
+  const safeSkills = Array.isArray(job.skills) ? job.skills : [];
+
   const formatSalary = (salary: any) => {
     if (!salary) return 'Not specified';
     const inrFormatter = new Intl.NumberFormat('en-IN', {
@@ -77,14 +79,14 @@ export const JobCard: React.FC<JobCardProps> = ({ job, onApply }) => {
 
       <div className='mb-4'>
         <div className='flex flex-wrap gap-2 mb-3'>
-          {job.skills.slice(0, 3).map((skill) => (
+          {safeSkills.slice(0, 3).map((skill) => (
             <span key={skill} className='px-3 py-1 bg-pink-50 text-pink-600 text-xs font-medium rounded-full'>
               {skill}
             </span>
           ))}
-          {job.skills.length > 3 && (
+          {safeSkills.length > 3 && (
             <span className='px-3 py-1 bg-gray-50 text-gray-600 text-xs font-medium rounded-full'>
-              +{job.skills.length - 3} more
+              +{safeSkills.length - 3} more
             </span>
           )}
         </div>
