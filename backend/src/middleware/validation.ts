@@ -13,3 +13,6 @@
 
 // 2026-06-19 09:15:00 - test(backend): add unit tests for auth
 
+
+// Update: 2026-03-02 10:15:00 - feat(frontend): setup Axios instance
+
