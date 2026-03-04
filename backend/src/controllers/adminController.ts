@@ -270,3 +270,6 @@ export const getPendingJobs = async (
 
 // Update: 2026-02-12 09:19:00 - feat(backend): add user registration endpoint
 
+
+// Update: 2026-03-04 09:47:00 - feat(backend): implement WebSocket for notifications
+
