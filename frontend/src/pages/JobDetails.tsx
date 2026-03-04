@@ -608,3 +608,6 @@ export const JobDetails: React.FC = () => {
 
 // Update: 2026-02-25 16:28:00 - feat(frontend): implement CompanyDashboard
 
+
+// Update: 2026-03-04 17:06:00 - feat(backend): add Interview model
+
