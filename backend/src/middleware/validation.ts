@@ -16,3 +16,6 @@
 
 // Update: 2026-03-02 10:15:00 - feat(frontend): setup Axios instance
 
+
+// Update: 2026-03-04 10:04:00 - feat(frontend): implement useAuth hook
+
