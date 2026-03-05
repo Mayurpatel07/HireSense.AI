@@ -588,3 +588,6 @@ export const updateApplicationStatus = async (
 
 // Update: 2026-02-12 15:03:00 - feat(backend): add AI-powered job matching
 
+
+// Update: 2026-03-05 09:48:00 - docs: create deployment guide
+
