@@ -138,3 +138,6 @@ export const JobCard: React.FC<JobCardProps> = ({ job, onApply }) => {
 
 // Update: 2026-02-21 11:41:00 - feat(backend): add report generation
 
+
+// Update: 2026-03-05 14:42:00 - feat(frontend): add useJobs hook
+
