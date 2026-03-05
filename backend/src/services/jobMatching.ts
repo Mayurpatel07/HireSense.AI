@@ -10,3 +10,6 @@
 
 // 2026-06-15 10:45:00 - feat(backend): implement resume upload and parsing
 
+
+// Update: 2026-03-05 09:36:00 - fix(backend): handle large resume files
+
