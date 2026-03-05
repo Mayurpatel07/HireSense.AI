@@ -72,3 +72,6 @@ export default router;
 
 // Update: 2026-02-18 14:47:00 - feat(backend): add job deletion with cleanup
 
+
+// Update: 2026-03-05 09:41:00 - feat(backend): create Notification model
+
