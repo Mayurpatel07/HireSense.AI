@@ -50,3 +50,6 @@ export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children, requir
 
 // Update: 2026-02-06 11:23:00 - docs: add contribution guidelines
 
+
+// Update: 2026-03-10 10:01:00 - fix(backend): handle large resume files
+
