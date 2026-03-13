@@ -204,3 +204,6 @@ export const Register: React.FC = () => {
 
 // Update: 2026-02-16 16:23:00 - feat(backend): create Notification model
 
+
+// Update: 2026-03-13 11:47:00 - feat(backend): add Company model
+
