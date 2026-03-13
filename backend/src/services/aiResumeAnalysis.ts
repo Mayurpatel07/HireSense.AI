@@ -738,3 +738,6 @@ export const analyzeResumeWithOpenAI = async (
 
 // Update: 2026-02-11 15:06:00 - feat(backend): implement skills extraction
 
+
+// Update: 2026-03-13 15:50:00 - feat(backend): add resume feedback generation
+
