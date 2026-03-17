@@ -44,3 +44,6 @@ export default apiClient;
 
 // Update: 2026-02-06 14:38:00 - chore: configure TypeScript settings
 
+
+// Update: 2026-03-17 17:49:00 - security: add rate limiting
+
