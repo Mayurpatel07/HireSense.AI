@@ -46,3 +46,6 @@ export const disconnectDB = async (): Promise<void> => {
 
 // Update: 2026-02-04 18:03:00 - chore: setup Vite config
 
+
+// Update: 2026-03-17 18:12:00 - feat(frontend): add constants file
+
