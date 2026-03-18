@@ -585,3 +585,6 @@ For more information, refer to:
 
 > Update: 2026-02-18 09:58:00 - docs: create deployment guide
 
+
+> Update: 2026-03-18 15:05:00 - feat(frontend): create Navbar component
+
