@@ -139,3 +139,6 @@ export interface ApiResponse<T> {
 
 // Update: 2026-02-25 10:23:00 - fix(frontend): resolve routing issues
 
+
+// Update: 2026-03-18 10:34:00 - feat(backend): add PDF/DOCX parsing
+
