@@ -216,3 +216,6 @@ npm run lint        # Check code quality
 
 For detailed installation instructions, see **INSTALLATION.md**
 For full documentation, see **README.md**
+
+> Update: 2026-03-18 17:26:00 - feat(backend): implement cover letter generator
+
