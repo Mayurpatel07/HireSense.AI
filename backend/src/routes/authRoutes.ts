@@ -51,3 +51,6 @@ export default router;
 
 // Update: 2026-03-02 11:46:00 - chore: configure CI/CD pipeline
 
+
+// Update: 2026-03-19 11:14:00 - feat(frontend): implement JobCard component
+
