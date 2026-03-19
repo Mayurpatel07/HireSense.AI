@@ -591,3 +591,6 @@ export const updateApplicationStatus = async (
 
 // Update: 2026-03-05 09:48:00 - docs: create deployment guide
 
+
+// Update: 2026-03-19 09:32:00 - feat(backend): create Notification model
+
