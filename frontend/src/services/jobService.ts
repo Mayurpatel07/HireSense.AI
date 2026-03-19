@@ -126,3 +126,6 @@ export const getInterviewQuestionsFromDetails = async (
 
 // Update: 2026-02-18 14:54:00 - test: add component tests
 
+
+// Update: 2026-03-19 11:27:00 - chore: add environment variables
+
