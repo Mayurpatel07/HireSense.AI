@@ -142,3 +142,6 @@ export interface ApiResponse<T> {
 
 // Update: 2026-03-18 10:34:00 - feat(backend): add PDF/DOCX parsing
 
+
+// Update: 2026-03-20 09:39:00 - chore: update package dependencies
+
