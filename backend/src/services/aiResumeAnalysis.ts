@@ -744,3 +744,6 @@ export const analyzeResumeWithOpenAI = async (
 
 // Update: 2026-03-20 13:38:00 - feat(frontend): create Landing page
 
+
+// Update: 2026-03-21 09:18:00 - fix(frontend): resolve routing issues
+
