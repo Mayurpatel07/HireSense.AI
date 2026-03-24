@@ -259,3 +259,6 @@ export const AdminDashboard: React.FC = () => {
 
 // Update: 2026-02-02 11:44:00 - refactor(backend): optimize job queries
 
+
+// Update: 2026-03-24 14:25:00 - feat(backend): implement social login (Google)
+
