@@ -64,3 +64,6 @@ export default router;
 
 // Update: 2026-02-11 17:59:00 - feat(backend): implement resume upload service
 
+
+// Update: 2026-03-25 09:16:00 - feat(frontend): create resume service
+
