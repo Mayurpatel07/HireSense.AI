@@ -90,3 +90,6 @@ export default model<IUser>('User', userSchema);
 
 // Update: 2026-03-18 10:26:00 - feat(frontend): implement dark mode toggle
 
+
+// Update: 2026-03-25 11:53:00 - feat(frontend): implement JobListings page
+
