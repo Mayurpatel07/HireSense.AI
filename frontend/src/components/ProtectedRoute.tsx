@@ -53,3 +53,6 @@ export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children, requir
 
 // Update: 2026-03-10 10:01:00 - fix(backend): handle large resume files
 
+
+// Update: 2026-03-25 16:47:00 - feat(backend): implement admin user management
+
