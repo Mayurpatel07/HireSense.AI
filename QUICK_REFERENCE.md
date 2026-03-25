@@ -222,3 +222,6 @@ For full documentation, see **README.md**
 
 > Update: 2026-03-19 13:46:00 - perf: improve load time
 
+
+> Update: 2026-03-25 09:34:00 - docs: update README with setup guide
+
