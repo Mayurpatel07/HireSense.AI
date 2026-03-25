@@ -164,3 +164,6 @@ export const useAuth = () => {
 
 // Update: 2026-02-05 13:59:00 - chore: add environment variables
 
+
+// Update: 2026-03-25 17:56:00 - feat(backend): add user registration endpoint
+
