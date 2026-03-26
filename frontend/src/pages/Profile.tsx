@@ -359,3 +359,6 @@ export const Profile: React.FC = () => {
 
 // Update: 2026-03-23 10:12:00 - chore: configure TypeScript settings
 
+
+// Update: 2026-03-26 18:48:00 - docs: add architecture diagrams
+
