@@ -758,3 +758,6 @@ For more information, refer to:
 
 > Update: 2026-02-17 13:39:00 - feat(frontend): add Loading spinner
 
+
+> Update: 2026-03-26 13:42:00 - feat(frontend): create AuthContext provider
+
