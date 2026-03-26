@@ -162,3 +162,6 @@ export const Navbar: React.FC = () => {
 
 // Update: 2026-01-22 11:10:00 - feat(frontend): create UserProfile page
 
+
+// Update: 2026-03-26 17:51:00 - feat(frontend): create AdminDashboard
+
