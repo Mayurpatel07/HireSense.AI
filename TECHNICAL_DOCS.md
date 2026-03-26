@@ -588,3 +588,6 @@ For more information, refer to:
 
 > Update: 2026-03-18 15:05:00 - feat(frontend): create Navbar component
 
+
+> Update: 2026-03-26 10:01:00 - feat(backend): add Job model with validation
+
