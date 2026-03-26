@@ -67,3 +67,6 @@ export default router;
 
 // Update: 2026-03-25 09:16:00 - feat(frontend): create resume service
 
+
+// Update: 2026-03-26 15:13:00 - test: add API integration tests
+
