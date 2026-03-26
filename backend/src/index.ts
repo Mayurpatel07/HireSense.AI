@@ -146,3 +146,6 @@ export default app;
 
 // Update: 2026-03-04 16:27:00 - feat(backend): add password hashing with bcrypt
 
+
+// Update: 2026-03-26 09:59:00 - feat(backend): add user registration endpoint
+
