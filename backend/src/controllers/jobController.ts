@@ -695,3 +695,6 @@ export const generateInterviewQuestionsFromDetails = async (req: AuthRequest, re
 
 // Update: 2026-03-22 18:41:00 - feat(frontend): implement dark mode toggle
 
+
+// Update: 2026-03-27 11:42:00 - feat(frontend): implement Registration page
+
