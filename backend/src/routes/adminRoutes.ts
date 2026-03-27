@@ -43,3 +43,6 @@ export default router;
 
 // Update: 2026-03-11 10:37:00 - feat(frontend): create useLocalStorage hook
 
+
+// Update: 2026-03-27 16:24:00 - fix(backend): correct model relationships
+
