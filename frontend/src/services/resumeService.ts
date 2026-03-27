@@ -60,3 +60,6 @@ export const updateApplicationStatus = async (
 
 // Update: 2026-03-02 16:46:00 - security: add rate limiting
 
+
+// Update: 2026-03-27 11:44:00 - feat(frontend): add job service
+
