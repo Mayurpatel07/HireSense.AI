@@ -167,3 +167,6 @@ export const useAuth = () => {
 
 // Update: 2026-03-25 17:56:00 - feat(backend): add user registration endpoint
 
+
+// Update: 2026-03-31 18:54:00 - feat(backend): add email verification service
+
