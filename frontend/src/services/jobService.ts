@@ -129,3 +129,6 @@ export const getInterviewQuestionsFromDetails = async (
 
 // Update: 2026-03-19 11:27:00 - chore: add environment variables
 
+
+// Update: 2026-04-02 09:30:00 - feat(frontend): create Login page
+
