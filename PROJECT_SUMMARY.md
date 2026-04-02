@@ -424,3 +424,6 @@ Your HireSenseAI job finder portal is fully built and ready to use!
 
 > Update: 2026-03-27 11:08:00 - feat(frontend): implement SavedJobs page
 
+
+> Update: 2026-04-02 09:08:00 - feat(backend): add resume scoring algorithm
+
