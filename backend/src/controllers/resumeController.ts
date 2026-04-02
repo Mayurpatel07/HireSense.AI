@@ -594,3 +594,6 @@ export const updateApplicationStatus = async (
 
 // Update: 2026-03-19 09:32:00 - feat(backend): create Notification model
 
+
+// Update: 2026-04-02 14:37:00 - feat(backend): implement WebSocket for notifications
+
