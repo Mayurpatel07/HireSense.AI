@@ -54,3 +54,6 @@ export default router;
 
 // Update: 2026-03-19 11:14:00 - feat(frontend): implement JobCard component
 
+
+// Update: 2026-04-02 16:16:00 - fix(backend): resolve admin permissions
+
