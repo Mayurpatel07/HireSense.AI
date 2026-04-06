@@ -132,3 +132,6 @@ export const getInterviewQuestionsFromDetails = async (
 
 // Update: 2026-04-02 09:30:00 - feat(frontend): create Login page
 
+
+// Update: 2026-04-06 13:10:00 - chore: setup Vite config
+
