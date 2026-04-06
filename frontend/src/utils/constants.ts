@@ -184,3 +184,6 @@ export const FEATURES = {
 
 // Update: 2026-02-25 11:04:00 - feat(frontend): add API interceptors
 
+
+// Update: 2026-04-06 09:59:00 - feat(frontend): create utility functions
+
