@@ -118,3 +118,6 @@ export default model<IJob>('Job', jobSchema);
 
 // Update: 2026-02-16 16:05:00 - fix(backend): correct model relationships
 
+
+// Update: 2026-04-06 11:50:00 - feat(backend): create User model with roles
+
