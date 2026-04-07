@@ -7,3 +7,6 @@
 
 // Update: 2026-03-16 17:26:00 - feat(frontend): add protected routes
 
+
+// Update: 2026-04-07 15:50:00 - fix(backend): correct model relationships
+
