@@ -597,3 +597,6 @@ export const updateApplicationStatus = async (
 
 // Update: 2026-04-02 14:37:00 - feat(backend): implement WebSocket for notifications
 
+
+// Update: 2026-04-07 09:06:00 - feat(frontend): add API interceptors
+
