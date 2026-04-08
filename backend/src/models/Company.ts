@@ -7,3 +7,6 @@
 
 // 2026-05-18 15:20:00 - feat(backend): add job application tracking system
 
+
+// Update: 2026-04-08 11:31:00 - feat(frontend): add job service
+
