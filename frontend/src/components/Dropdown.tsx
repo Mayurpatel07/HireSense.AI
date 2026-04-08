@@ -13,3 +13,6 @@
 
 // Update: 2026-03-13 10:33:00 - feat(backend): implement job search with filters
 
+
+// Update: 2026-04-08 15:16:00 - feat(backend): implement JWT authentication
+
