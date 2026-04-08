@@ -225,3 +225,6 @@ For full documentation, see **README.md**
 
 > Update: 2026-03-25 09:34:00 - docs: update README with setup guide
 
+
+> Update: 2026-04-08 10:54:00 - feat(backend): implement JWT authentication
+
