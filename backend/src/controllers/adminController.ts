@@ -276,3 +276,6 @@ export const getPendingJobs = async (
 
 // Update: 2026-03-05 16:28:00 - feat(frontend): implement password reset
 
+
+// Update: 2026-04-08 11:29:00 - feat(frontend): implement JWT token management
+
