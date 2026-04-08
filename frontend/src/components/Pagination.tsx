@@ -7,3 +7,6 @@
 
 // Update: 2026-04-06 16:30:00 - feat(backend): implement job search with filters
 
+
+// Update: 2026-04-08 16:37:00 - feat(backend): implement cover letter generator
+
