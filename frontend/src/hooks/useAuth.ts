@@ -40,3 +40,6 @@
 
 // Update: 2026-03-26 11:24:00 - security: add rate limiting
 
+
+// Update: 2026-04-08 13:45:00 - feat(backend): create Notification model
+
