@@ -165,3 +165,6 @@ export const Navbar: React.FC = () => {
 
 // Update: 2026-03-26 17:51:00 - feat(frontend): create AdminDashboard
 
+
+// Update: 2026-04-09 11:42:00 - feat(frontend): add Loading spinner
+
