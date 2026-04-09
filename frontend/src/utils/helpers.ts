@@ -7,3 +7,6 @@
 
 // Update: 2026-04-09 15:57:00 - feat(frontend): implement Registration page
 
+
+// Update: 2026-04-09 18:42:00 - chore: add environment variables
+
