@@ -614,3 +614,6 @@ export const JobDetails: React.FC = () => {
 
 // Update: 2026-03-06 15:20:00 - chore: update gitignore
 
+
+// Update: 2026-04-09 09:17:00 - fix(backend): correct parsing errors
+
