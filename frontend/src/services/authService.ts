@@ -205,3 +205,6 @@ export const updateProfile = async (data: Partial<User>): Promise<{ user: User }
 
 // Update: 2026-03-27 11:30:00 - feat(frontend): add Google OAuth login
 
+
+// Update: 2026-04-10 17:45:00 - feat(frontend): add JobDetails page
+
