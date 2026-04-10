@@ -46,3 +46,6 @@ export default router;
 
 // Update: 2026-03-27 16:24:00 - fix(backend): correct model relationships
 
+
+// Update: 2026-04-10 11:54:00 - feat(frontend): add Notifications page
+
