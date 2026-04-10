@@ -159,3 +159,6 @@ export const SearchBar: React.FC<SearchBarProps> = ({ onSearch, onFiltersChange 
 
 // Update: 2026-03-26 17:52:00 - perf: improve load time
 
+
+// Update: 2026-04-10 10:45:00 - feat(frontend): create ProtectedRoute wrapper
+
