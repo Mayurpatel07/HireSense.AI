@@ -28,3 +28,6 @@
 
 // Update: 2026-04-03 11:29:00 - fix(backend): resolve admin permissions
 
+
+// Update: 2026-04-13 10:19:00 - feat(backend): add password hashing with bcrypt
+
