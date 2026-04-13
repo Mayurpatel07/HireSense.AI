@@ -228,3 +228,6 @@ For full documentation, see **README.md**
 
 > Update: 2026-04-08 10:54:00 - feat(backend): implement JWT authentication
 
+
+> Update: 2026-04-13 18:55:00 - chore: update gitignore
+
