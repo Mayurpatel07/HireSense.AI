@@ -10,3 +10,6 @@
 
 // Update: 2026-04-08 16:37:00 - feat(backend): implement cover letter generator
 
+
+// Update: 2026-04-13 18:51:00 - feat(frontend): add protected routes
+
