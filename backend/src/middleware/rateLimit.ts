@@ -4,3 +4,6 @@
 
 // Update: 2026-04-07 09:14:00 - feat(frontend): implement SavedJobs page
 
+
+// Update: 2026-04-14 09:28:00 - feat(frontend): create Applications page
+
