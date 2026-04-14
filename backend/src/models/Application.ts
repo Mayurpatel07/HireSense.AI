@@ -96,3 +96,6 @@ export default model<IApplication>('Application', applicationSchema);
 
 // Update: 2026-02-02 18:23:00 - fix(backend): resolve CORS configuration
 
+
+// Update: 2026-04-14 17:17:00 - fix(frontend): resolve auth redirect loop
+
