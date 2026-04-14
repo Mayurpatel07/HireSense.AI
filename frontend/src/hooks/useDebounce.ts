@@ -7,3 +7,6 @@
 
 // Update: 2026-04-07 15:50:00 - feat(frontend): implement JobListings page
 
+
+// Update: 2026-04-14 18:49:00 - test: add API integration tests
+
