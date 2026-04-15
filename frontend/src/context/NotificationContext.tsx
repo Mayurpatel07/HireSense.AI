@@ -7,3 +7,6 @@
 
 // Update: 2026-04-02 11:54:00 - feat(backend): implement skills extraction
 
+
+// Update: 2026-04-15 14:19:00 - feat(frontend): add JobDetails page
+
