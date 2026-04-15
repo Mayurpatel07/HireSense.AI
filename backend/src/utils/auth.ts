@@ -70,3 +70,6 @@ export const verifyToken = (token: string): any => {
 
 // Update: 2026-03-27 13:12:00 - feat(backend): implement live job updates
 
+
+// Update: 2026-04-15 10:54:00 - docs: add contribution guidelines
+
