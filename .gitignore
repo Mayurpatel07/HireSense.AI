@@ -1,0 +1,53 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+
+backend/firebase-adminsdk.json
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# VS Code settings
+.vscode/
+
+# Build files
+build/
+coverage/
+
+# Cache files
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# VS Code settings
+.vscode/
+
+# Build files
+build/
+coverage/
+
+# Cache files
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# Build and cache files
+build/
+coverage/
+__pycache__/
+*.pyc
+!.env.example
+backend/*firebase-adminsdk*.json
